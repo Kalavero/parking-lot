@@ -19,4 +19,5 @@ RUN bundle install
 
 ADD . $APP_PATH
 
+USER $APP_USER
 VOLUME $BUNDLE_PATH
