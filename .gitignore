@@ -17,6 +17,8 @@
 /storage/*
 !/storage/.keep
 .byebug_history
+.bash_history
+.gem/*
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
