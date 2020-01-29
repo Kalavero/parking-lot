@@ -2,6 +2,10 @@
 
 # Parking Lot
 
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/github/Kalavero/parking-lot/pipelines)
+
+# Example for specific branch:
+
 ### Project
 
 #### Dependencies
