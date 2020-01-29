@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 2020_01_26_132108) do
     t.datetime "checkout"
     t.datetime "payment_time"
     t.boolean "paid", default: false
-    t.float "paid_value"
     t.boolean "left", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

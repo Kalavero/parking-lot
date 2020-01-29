@@ -6,7 +6,6 @@ class CreateParkings < ActiveRecord::Migration[6.0]
       t.datetime :checkout
       t.datetime :payment_time
       t.boolean :paid, default: false
-      t.float :paid_value
       t.boolean :left, default: false
 
       t.timestamps

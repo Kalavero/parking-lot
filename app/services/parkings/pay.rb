@@ -1,15 +1,13 @@
 # frozen_string_literal: true
 module Parkings
-  class Checkout < ApplicationService
+  class Pay < ApplicationService
     def initialize(parking)
       @parking = parking
     end
 
     def call
-      return false unless @parking.paid?
-
-      @parking.checkout = Time.current
-      @parking.left = true
+      @parking.payment_time = Time.current
+      @parking.paid = true
       @parking.save
 
       @parking
