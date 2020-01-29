@@ -2,7 +2,7 @@
 
 # Parking Lot
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/github/Kalavero/parking-lot/pipelines)
+[![Kalavero](https://circleci.com/gh/Kalavero/parking-lot/tree/master.svg?style=svg)](https://app.circleci.com/gh/Kalavero/parking-lot/pipelines)
 
 # Example for specific branch:
 
